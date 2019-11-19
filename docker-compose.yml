@@ -17,7 +17,7 @@ services:
   gingonic:
     container_name: ag_go_server
     build:
-      context: ./go_server
+      context: go_server
       dockerfile: Dockerfile
     restart: always
     env_file:
